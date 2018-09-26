@@ -17,9 +17,16 @@ namespace SmartMenuApp
 
         private void Run()
         {
+            
+        
             SmartMenu menu = new SmartMenu();
-            menu.LoadMenu("MenuSpec.txt");
+            Console.WriteLine("Vælg sprog / Choose language ");
+            Console.WriteLine("For Dansk: Tryk 1 / For English press 2");
+            string input = Console.ReadLine();
+            int.TryParse(input, out int r);
+            menu.LoadMenu(menu.ChooseLanguage(r));
             menu.Activate();
         }
+
     }
 }
