@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6385819E-FFF1-4830-8595-D23915FB58F0}</ProjectGuid>
+    <ProjectGuid>{64912233-8BC0-4250-9F82-C843ADEA2CB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SmartMenuLibrary</RootNamespace>
-    <AssemblyName>SmartMenuLibrary</AssemblyName>
+    <RootNamespace>Bindings</RootNamespace>
+    <AssemblyName>Bindings</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,17 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SmartMenu.cs" />
+    <Compile Include="Binding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MenuSpecDK.txt" />
-    <Content Include="MenuSpecENG.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bindings\Bindings.csproj">
-      <Project>{64912233-8bc0-4250-9f82-c843adea2cb8}</Project>
-      <Name>Bindings</Name>
+    <ProjectReference Include="..\FunctionLibrary\FunctionLibrary.csproj">
+      <Project>{420e09eb-4efd-43ce-97a3-92e4f1bfc7ea}</Project>
+      <Name>FunctionLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

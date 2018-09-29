@@ -1,5 +1,6 @@
-﻿Algoritme beregner
-Tast menu-id for at vælge menupunkt eller 0 for at afslutte
-Beregn polyline længde;polylinelength
-Beregn rektanglets areal;rectanglearea
-Indlæs talserie;listofnumbers
+﻿Min fantastiske menu
+(Tryk menupunkt eller 0 for at afslutte)
+Gør dette;DoThis
+Gør hint;DoThat
+Gør noget;DoSomething
+Få svaret på livet, universet og alting;GetTheAnswerToLifeTheUniverseAndEverything
