@@ -11,20 +11,20 @@ namespace CalculatorLibrary
         
         public static double Add(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 + v2;
         }
 
         public static double Subtract(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 - v2;
         }
         public static double Multiply(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 * v2;
         }
         public static double Divide(double v1, double v2)
         {
-            throw new NotImplementedException();
+            return v1 / v2;
         }
         public static double Sum(double[] numbers)
         {
@@ -43,16 +43,16 @@ namespace CalculatorLibrary
         public static double Minimum(double[] numbers)
         {
             int i;
-            double minInts;
-            minInts = numbers[0];
+            double minNumbers;
+            minNumbers = numbers[0];
             for (i = 0; i < numbers.Length; i = i + 1)
             {
-                if (numbers[i] < minInts)
+                if (numbers[i] < minNumbers)
                 {
-                    minInts = numbers[i];
+                    minNumbers = numbers[i];
                 }
             }
-            return minInts;
+            return minNumbers;
         }
         public static double Maximum(double[] numbers)
         {
