@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionLibrary", "Function
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bindings", "Bindings\Bindings.csproj", "{64912233-8BC0-4250-9F82-C843ADEA2CB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{15FA9C47-FD4D-43EC-B1EF-07B4E0F6601C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTest", "CalculatorTest\CalculatorTest.csproj", "{8168D859-4DBD-42E5-93D4-48DE94C93F0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{64912233-8BC0-4250-9F82-C843ADEA2CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64912233-8BC0-4250-9F82-C843ADEA2CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64912233-8BC0-4250-9F82-C843ADEA2CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FA9C47-FD4D-43EC-B1EF-07B4E0F6601C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FA9C47-FD4D-43EC-B1EF-07B4E0F6601C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FA9C47-FD4D-43EC-B1EF-07B4E0F6601C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FA9C47-FD4D-43EC-B1EF-07B4E0F6601C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8168D859-4DBD-42E5-93D4-48DE94C93F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8168D859-4DBD-42E5-93D4-48DE94C93F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8168D859-4DBD-42E5-93D4-48DE94C93F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8168D859-4DBD-42E5-93D4-48DE94C93F0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
